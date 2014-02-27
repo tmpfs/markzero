@@ -1,3 +1,10 @@
+# Table of Contents
+
+* markzero
+  * Install
+  * Features
+  * License
+
 # markzero
 
 Extensions to the marked library.

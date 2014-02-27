@@ -1,3 +1,11 @@
+Table of Contents
+=================
+
+* [markzero](#markzero)
+  * [Install](#install)
+  * [Features](#features)
+  * [License](#license)
+
 markzero
 ========
 

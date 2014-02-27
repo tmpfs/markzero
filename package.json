@@ -52,6 +52,7 @@
     "pedantic": true,
     "include": "doc/readme",
     "require": "./",
+    "toc": "Table of Contents",
     "links": "links.md",
     "base": "https://github.com/freeformsystems/markzero",
     "partial": [
