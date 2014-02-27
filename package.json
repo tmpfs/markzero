@@ -1,0 +1,73 @@
+{
+  "name": "markzero",
+  "version": "0.0.1",
+  "description": "Extensions to the marked library",
+  "author": "muji <noop@xpm.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeformsystems/markzero"
+  },
+  "bugs": {
+    "url": "https://github.com/freeformsystems/markzero/issues",
+    "email": "muji <noop@xpm.io>"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/freeformsystems/markzero/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "markdown",
+    "marked",
+    "man",
+    "renderer",
+    "documentation"
+  ],
+  "dependencies": {
+    "cli-util": "~1.1.12",
+    "manual": "~0.0.2",
+    "marked": "~0.3.1"
+  },
+  "devDependencies": {
+    "mdp": "0.1.7",
+    "mocha": "~1.17.0",
+    "chai": "~1.9.0",
+    "istanbul": "~0.2.4"
+  },
+  "engine": [
+    "node >= 0.10.21"
+  ],
+  "scripts": {
+    "build": "mdp --force -v",
+    "test": "istanbul cover _mocha -- -u bdd --recursive --bail --reporter list -A test/unit/"
+  },
+  "mdp": {
+    "title": {
+      "ref": "name",
+      "format": "%s"
+    },
+    "pedantic": true,
+    "include": "doc/readme",
+    "require": "./",
+    "links": "links.md",
+    "base": "https://github.com/freeformsystems/markzero",
+    "partial": [
+      {
+        "ref": "description"
+      },
+      {
+        "inc": [
+          "introduction.md",
+          "install.md"
+        ]
+      },
+      {
+        "inc": [
+          "license.md"
+        ]
+      }
+    ]
+  }
+}
