@@ -4,6 +4,7 @@ Table of Contents
 * [markzero](#markzero)
   * [Install](#install)
   * [Features](#features)
+  * [Examples](#examples)
   * [License](#license)
 
 markzero
@@ -27,6 +28,15 @@ npm i markzero
 * Additional renderers for plain text and man pages.
 * Builds link index for plain text documents.
 * Supports nested ordered lists when converting back to markdown.
+
+## Examples
+
+Alternative versions of this document serve as examples:
+
+* [README.txt](https://github.com/freeformsystems/markzero/blob/master/doc/alt/README.txt).
+* [README.1](https://github.com/freeformsystems/markzero/blob/master/doc/alt/README.1).
+* [README.html](https://github.com/freeformsystems/markzero/blob/master/doc/alt/README.html).
+* [README.xhtml](https://github.com/freeformsystems/markzero/blob/master/doc/alt/README.xhtml).
 
 ## License
 

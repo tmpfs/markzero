@@ -63,7 +63,8 @@
         "inc": [
           "introduction.md",
           "install.md",
-          "features.md"
+          "features.md",
+          "examples.md"
         ]
       },
       {
