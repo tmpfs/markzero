@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "cli-util": "~1.1.13",
-    "manual": "~0.0.3",
+    "manual": "~0.0.4",
     "marked": "~0.3.1"
   },
   "devDependencies": {
