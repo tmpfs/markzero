@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "cli-util": "~1.1.13",
-    "manual": "0.0.5"
+    "manual": "~0.0.7"
   },
   "devDependencies": {
     "mdp": "0.1.19",
